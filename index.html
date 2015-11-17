@@ -1,0 +1,23 @@
+"ayyy"
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+ var trains = [];
+ var arcgis = [];
+
+ var socket = io.connect('http://localhost:8080');
+ 
+ socket.on('arcgis', function (data) {
+ //console.log(data);
+    arcgis = data;
+ });
+ 
+ socket.on('trains', function (data) {
+    trains = data;
+    console.log(trains);
+ });
+
+
+
+</script>

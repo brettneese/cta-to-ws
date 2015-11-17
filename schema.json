@@ -1,0 +1,73 @@
+{
+ "description": null,
+ "objectIdField": null,
+ "timeInfo": {
+  "trackIdField": "rn",
+  "startTimeField": "prdt",
+  "endTimeField": null
+ },
+ "geometryType": "esriGeometryPoint",
+ "geometryField": "Geometry",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "description": "",
+   "symbol": {
+    "type": "esriSMS",
+    "style": "esriSMSCircle",
+    "color": [
+     5,
+     112,
+     176,
+     204
+    ],
+    "size": 10,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "outline": {
+     "color": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "width": 1
+    }
+   }
+  }
+ },
+ "fields": [
+  {
+   "name": "rn",
+   "type": "esriFieldTypeString",
+   "alias": "rn",
+   "nullable": true
+  },
+  {
+   "name": "heading",
+   "type": "esriFieldTypeInteger",
+   "alias": "heading",
+   "nullable": true
+  }
+  
+ ],
+ "relatedFeatures": {
+  "featuresUrl": "",
+  "joinField": "rn"
+ },
+ "currentVersion": "10.3",
+ "streamUrls": [
+  {
+   "transport": "ws",
+   "urls": [
+    "ws://localhost:8080/socket.io/?EIO=3&transport=websocket&sid=h1Z12V7BRby-bawpAAAH"
+   ]
+  }
+ ],
+ "capabilities": "broadcast,subscribe"
+}
