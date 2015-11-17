@@ -65,7 +65,7 @@
   {
    "transport": "ws",
    "urls": [
-    "ws://localhost:8080/socket.io/?EIO=3&transport=websocket&sid=h1Z12V7BRby-bawpAAAH"
+    "ws://localhost:3000/"
    ]
   }
  ],
